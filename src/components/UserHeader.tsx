@@ -10,10 +10,11 @@ import {
 	Portal,
 	Text,
 	VStack,
+	useToast,
 } from '@chakra-ui/react';
-import { useToast } from '@chakra-ui/react';
 import { BsInstagram } from 'react-icons/bs';
 import { CgMoreO } from 'react-icons/cg';
+
 type Props = {};
 
 const UserHeader = (props: Props) => {
